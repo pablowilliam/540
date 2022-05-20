@@ -2,13 +2,13 @@ version: '3'
 services:
  webserver:
   image: "registry:5000/webserver-wordpress"
-  hostname: "webserver-4labs" 
-  container_name: "webserver-4labs" 
-  domainname: "4labs.example"
+  hostname: "webserver-digicontrol" 
+  container_name: "webserver-digicontrol-labs" 
+  domainname: "digicontrol.example"
   ports:
    - "80:80"
 #  networks:
-#   4labs:
+#   Digicontrol_labs:
 #    ipv4_address: 172.20.0.150
 #  volumes:
 #   - "volume_nfs:/var/www/html"
