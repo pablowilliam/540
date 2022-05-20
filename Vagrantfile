@@ -17,6 +17,9 @@ Vagrant.configure('2') do |config|
         if !(File.exists?('id_rsa'))
           system("ssh-keygen -b 2048 -t rsa -f id_rsa -q -N ''")
        end
+       if !(File.exists?('ubuntu.pub'))
+        system("ssh-keygen -t rsa -m PEM -b 4096 -C vagrant@172.0.16.100 -N Vagrant123456 -f ubuntu -q")
+       end
 
   vms.each do |name, conf|
     config.vm.define "#{name}" do |k|
