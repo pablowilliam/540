@@ -1,7 +1,7 @@
 Laboratório 540 - Administração de Containers - DCA
 =============================
 
-Repositório para armazenar o Laboratório do curso de Administração de Containers - DCA da Digicontrol
+Repositório para armazenar o Laboratório do curso de Administração de Containers - DCA do LAB Digicontrol
 
 Dependências
 ------------
