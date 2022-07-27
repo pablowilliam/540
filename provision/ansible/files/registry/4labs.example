@@ -1,5 +1,5 @@
 $TTL 86400
-@   IN  SOA     registry.4labs.example. root.4labs.example. (
+@   IN  SOA     registry.digicontrol.example. root.digicontrol.example. (
         2020010101  ;Serial
         3600        ;Refresh
         1800        ;Retry
