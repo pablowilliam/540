@@ -6,7 +6,7 @@ $TTL 86400
         604800      ;Expire
         86400       ;Minimum TTL
 )
-		IN	NS	registry.4labs.example.
+		IN	NS	registry.digicontrol.example.
 		IN	A	172.16.0.103
 
 manager		IN	A	172.16.0.100
